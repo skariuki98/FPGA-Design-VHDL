@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Aug 24 10:06:17 2022
+# Process ID: 34144
+# Current directory: C:/Users/kariu/Documents/USF Coursework/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39152 C:\Users\kariu\Documents\USF Coursework\Spring 2022\CDA4253 FPGA\Projects\A5-Stella-Kariuki\Q_2\Q_2.xpr
+# Log file: C:/Users/kariu/Documents/USF Coursework/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/vivado.log
+# Journal file: C:/Users/kariu/Documents/USF Coursework/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/kariu/Documents/USF Coursework/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.xpr}
+update_compile_order -fileset sources_1

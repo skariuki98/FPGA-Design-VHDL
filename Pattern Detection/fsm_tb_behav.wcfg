@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fsm_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fsm_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="160.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="225.101 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="162"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/fsm_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_tb/din" type="logic">
+      <obj_property name="ElementShortName">din</obj_property>
+      <obj_property name="ObjectShortName">din</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_tb/din_valid" type="logic">
+      <obj_property name="ElementShortName">din_valid</obj_property>
+      <obj_property name="ObjectShortName">din_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_tb/count" type="array">
+      <obj_property name="ElementShortName">count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_tb/stream1" type="array">
+      <obj_property name="ElementShortName">stream1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stream1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_tb/stream2" type="array">
+      <obj_property name="ElementShortName">stream2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stream2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_tb/stream3" type="array">
+      <obj_property name="ElementShortName">stream3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stream3[31:0]</obj_property>
+   </wvobject>
+</wave_config>

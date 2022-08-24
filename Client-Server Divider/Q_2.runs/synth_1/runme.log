@@ -1,0 +1,287 @@
+
+*** Running vivado
+    with args -log server.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source server.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source server.tcl -notrace
+Command: synth_design -top server -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20208
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'server' [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/sources_1/new/server.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'div' [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/sources_1/imports/A5-Stella-Kariuki/list_ch06_05_div.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'div' (1#1) [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/sources_1/imports/A5-Stella-Kariuki/list_ch06_05_div.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'server' (2#1) [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/sources_1/new/server.vhd:47]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1136.000 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc]
+WARNING: [Vivado 12-584] No ports matched 'data_valid'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:210]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:210]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[0]'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:241]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:241]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[1]'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:242]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:242]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[2]'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:243]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:243]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[3]'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:244]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:244]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[4]'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:245]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:245]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[5]'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:246]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:246]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[6]'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:247]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:247]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[7]'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:248]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:248]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 33]]'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:366]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 34]]'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:371]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:376]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 13]]'. [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc:379]
+Finished Parsing XDC File [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.srcs/constrs_1/imports/A5-Stella-Kariuki/p2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/server_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/server_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1136.000 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'div'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'server'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                      op |                               01 |                               01
+                    last |                               10 |                               10
+                    done |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'div'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                              000 |                              000
+                      s1 |                              001 |                              001
+                      s2 |                              010 |                              010
+                      s3 |                              011 |                              011
+                      s4 |                              100 |                              100
+                      s5 |                              101 |                              101
+                      s6 |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'server'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input    8 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input    8 Bit        Muxes := 2     
+	   7 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 6     
+	   7 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1136.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1139.027 ; gain = 3.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1139.027 ; gain = 3.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1139.027 ; gain = 3.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1139.027 ; gain = 3.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1139.027 ; gain = 3.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1139.027 ; gain = 3.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     3|
+|3     |LUT2   |     9|
+|4     |LUT3   |     6|
+|5     |LUT4   |    31|
+|6     |LUT5   |     4|
+|7     |LUT6   |    13|
+|8     |FDCE   |    30|
+|9     |FDRE   |    13|
+|10    |FDSE   |     1|
+|11    |IBUF   |    20|
+|12    |OBUF   |    11|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1139.027 ; gain = 3.027
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1139.027 ; gain = 3.027
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1139.027 ; gain = 3.027
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1139.027 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1161.430 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: b7f7015e
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 13 Warnings, 9 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 1161.430 ; gain = 25.430
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/kariu/Documents/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.runs/synth_1/server.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file server_utilization_synth.rpt -pb server_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  9 03:28:34 2022...

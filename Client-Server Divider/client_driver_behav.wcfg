@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="client_driver_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="client_driver" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="130.701 ns"></ZoomEndTime>
+      <Cursor1Time time="82.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="157"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/client_driver/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/d_valid" type="logic">
+      <obj_property name="ElementShortName">d_valid</obj_property>
+      <obj_property name="ObjectShortName">d_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/data" type="array">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/result" type="array">
+      <obj_property name="ElementShortName">result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">result[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/qnt" type="array">
+      <obj_property name="ElementShortName">qnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">qnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/rmd" type="array">
+      <obj_property name="ElementShortName">rmd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rmd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/dvd" type="array">
+      <obj_property name="ElementShortName">dvd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dvd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/dvs" type="array">
+      <obj_property name="ElementShortName">dvs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dvs[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/error" type="logic">
+      <obj_property name="ElementShortName">error</obj_property>
+      <obj_property name="ObjectShortName">error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/ack" type="logic">
+      <obj_property name="ElementShortName">ack</obj_property>
+      <obj_property name="ObjectShortName">ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/client_driver/cstate" type="other">
+      <obj_property name="ElementShortName">cstate</obj_property>
+      <obj_property name="ObjectShortName">cstate</obj_property>
+   </wvobject>
+</wave_config>

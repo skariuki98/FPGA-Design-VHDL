@@ -1,0 +1,134 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 34144
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Aug 24 10:06:55 EDT 2022
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Beast98
+User home directory: C:/Users/kariu
+User working directory: C:/Users/kariu/Documents/USF Coursework/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2021.1
+RDI_DATADIR: C:/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/kariu/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/kariu/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/kariu/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/kariu/Documents/USF Coursework/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/vivado.log
+Vivado journal file: 	C:/Users/kariu/Documents/USF Coursework/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/vivado.jou
+Engine tmp dir: 	C:/Users/kariu/Documents/USF Coursework/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/.Xil/Vivado-34144-LAPTOP-AED0D1LM
+
+Xilinx Environment Variables
+----------------------------
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,146 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\kariu\Documents\USF Coursework\Spring 2022\CDA4253 FPGA\Projects\A5-Stella-Kariuki\Q_2\Q_2.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/kariu/Documents/USF Coursework/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/kariu/Documents/USF Coursework/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2' 
+// TclEventType: FLOW_ADDED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,146 MB. GUI used memory: 59 MB. Current time: 8/24/22, 10:06:56 AM EDT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/kariu/Documents/USF Coursework/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2/Q_2.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 107 MB (+110055kb) [00:00:29]
+// [Engine Memory]: 1,146 MB (+1050298kb) [00:00:29]
+// [GUI Memory]: 121 MB (+8852kb) [00:00:32]
+// WARNING: HEventQueue.dispatchEvent() is taking  7599 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:19 . Memory (MB): peak = 1136.992 ; gain = 0.000 
+// Project name: Q_2; location: C:/Users/kariu/Documents/USF Coursework/Spring 2022/CDA4253 FPGA/Projects/A5-Stella-Kariuki/Q_2; part: xc7z020clg484-1
+// [GUI Memory]: 127 MB (+22kb) [00:00:36]
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 135 MB (+1624kb) [00:00:41]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 145 MB (+2807kb) [00:01:39]
+// Elapsed time: 62 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client_driver(Structural) (client_driver.vhd), uut : server(struct) (server.vhd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client_driver(Structural) (client_driver.vhd), uut : server(struct) (server.vhd)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// bz (cs):  Opening Editor : addNotify
+// Elapsed time: 29 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+dismissDialog("Opening Editor"); // bz
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client_driver(Structural) (client_driver.vhd), uut : server(struct) (server.vhd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client_driver(Structural) (client_driver.vhd), uut : server(struct) (server.vhd)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// bz (cs):  Opening Editor : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,146 MB. GUI used memory: 86 MB. Current time: 8/24/22, 10:09:19 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,146 MB. GUI used memory: 86 MB. Current time: 8/24/22, 10:09:49 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,146 MB. GUI used memory: 86 MB. Current time: 8/24/22, 10:10:19 AM EDT

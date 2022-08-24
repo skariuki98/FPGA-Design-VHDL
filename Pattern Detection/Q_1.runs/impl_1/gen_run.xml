@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1646518304">
+  <File Type="ROUTE-PWR" Name="fsm_pattern_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="fsm_pattern.tcl"/>
+  <File Type="BITSTR-MMI" Name="fsm_pattern.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="fsm_pattern_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="fsm_pattern_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="fsm_pattern_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="fsm_pattern_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="fsm_pattern_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="fsm_pattern_opt.dcp"/>
+  <File Type="OPT-DRC" Name="fsm_pattern_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="fsm_pattern.hwdef"/>
+  <File Type="PWROPT-DCP" Name="fsm_pattern_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="fsm_pattern_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="fsm_pattern_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="fsm_pattern_placed.dcp"/>
+  <File Type="PLACE-IO" Name="fsm_pattern_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="fsm_pattern_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="fsm_pattern_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="fsm_pattern_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="fsm_pattern_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="fsm_pattern_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="fsm_pattern_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="fsm_pattern.bin"/>
+  <File Type="PLACE-TIMING" Name="fsm_pattern_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="fsm_pattern_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="fsm_pattern.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="fsm_pattern_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="fsm_pattern_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="fsm_pattern_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="fsm_pattern.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="fsm_pattern_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="fsm_pattern_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="fsm_pattern_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="fsm_pattern_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="fsm_pattern_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="fsm_pattern_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="fsm_pattern_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="fsm_pattern_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="fsm_pattern_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="fsm_pattern_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="fsm_pattern_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="fsm_pattern_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="fsm_pattern_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="fsm_pattern_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="fsm_pattern_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="fsm_pattern_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="fsm_pattern_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="fsm_pattern_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="fsm_pattern_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="fsm_pattern_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="fsm_pattern_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="fsm_pattern_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="fsm_pattern_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="fsm_pattern_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="fsm_pattern_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="fsm_pattern_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="fsm_pattern_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="fsm_pattern.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="fsm_pattern_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="fsm_pattern_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="fsm_pattern.nky"/>
+  <File Type="BITSTR-BMM" Name="fsm_pattern_bd.bmm"/>
+  <File Type="PDI-FILE" Name="fsm_pattern.pdi"/>
+  <File Type="RCFI_FILE" Name="fsm_pattern.rcfi"/>
+  <File Type="CFI_FILE" Name="fsm_pattern.cfi"/>
+  <File Type="RNPI_FILE" Name="fsm_pattern.rnpi"/>
+  <File Type="NPI_FILE" Name="fsm_pattern.npi"/>
+  <File Type="RBD_FILE" Name="fsm_pattern.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="fsm_pattern.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="fsm_pattern.sysdef"/>
+  <File Type="BG-BGN" Name="fsm_pattern.bgn"/>
+  <File Type="BG-DRC" Name="fsm_pattern.drc"/>
+  <File Type="RDI-RDI" Name="fsm_pattern.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/fsm_pattern.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fsm_tb.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="fsm_pattern"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/A5-Stella-Kariuki/p1.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../p1.xdc"/>
+        <Attr Name="ImportTime" Val="1646499027"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
