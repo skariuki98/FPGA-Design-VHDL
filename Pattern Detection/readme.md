@@ -6,4 +6,4 @@ The following state diagram was used:
 
 ## Bit Pattern Detection FSMD
 
-![](/images/Q1_state_diagram.jpg)
+<img src="https://github.com/skariuki98/FPGA-Design-VHDL/blob/main/images/Q1_state_diagram.jpg"  width="500" height="500">
