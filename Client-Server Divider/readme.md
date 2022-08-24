@@ -11,5 +11,7 @@ If no errors are present, the division is done, the quotient is sent to the serv
 The server receives the Ack signal and sets done = 1 to terminate the program.
 
 client_driver.vhd contains the testbench run for simulation
+
 server.vhd contains the server set up
+
 client.vhdl contains the client set up
